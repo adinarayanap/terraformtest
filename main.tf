@@ -16,4 +16,9 @@ provider "google" {
 
 resource "google_compute_network" "vpc_network" {
   name = "terraform-network"
+<<<<<<< HEAD
 }
+=======
+  #added the new line
+}
+>>>>>>> abf0466a1c4b6d2fa72e79e1e813db7d2545c59c
